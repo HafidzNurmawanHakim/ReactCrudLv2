@@ -1,0 +1,38 @@
+.popup-delete {
+  background-color: white;
+  width: 380px;
+  height: 180px;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  padding: 10px;
+  border-radius: 3px;
+  transform: translate(-50%, -50%);
+  transition: 0.5s;
+  display: none;
+}
+
+.active {
+  display: block;
+  top: 45%;
+}
+.text-confir {
+  padding: 20px;
+}
+.btn-wrap {
+  position: absolute;
+  width: 120px;
+  display: inline;
+  right: 20px;
+  bottom: 20px;
+}
+
+.fa-delete {
+  left: 99%;
+  top: -13%;
+}
+
+.btn-confir:nth-child(2) {
+  margin-left: 15px;
+  background-color: red;
+}

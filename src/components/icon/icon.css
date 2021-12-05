@@ -1,0 +1,23 @@
+img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+.mern-icon {
+  line-height: 30vh;
+}
+
+img:nth-child(1) {
+  background-color: #4c4b4e;
+}
+img:nth-child(2) {
+  background-color: #cd7a70;
+}
+img:nth-child(3) {
+  background-color: rgb(65, 64, 64);
+}
+img:nth-child(4) {
+  background-color: whitesmoke;
+}

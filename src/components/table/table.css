@@ -1,0 +1,63 @@
+table {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+table,
+tr,
+td,
+th {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+thead > tr {
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+td {
+  padding: 7px;
+}
+th {
+  padding: 7px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: gainsboro;
+}
+
+button.aksi-btn {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+button.aksi-btn:nth-child(2) {
+  background-color: red;
+}
+button.aksi-btn:nth-child(3) {
+  background-color: gold;
+}
+button.aksi-btn:nth-child(2):hover {
+  background-color: rgb(192, 3, 3);
+}
+button.aksi-btn:nth-child(3):hover {
+  background-color: rgb(221, 189, 4);
+}
+
+.fa-info {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.fa-trash-alt {
+  font-size: 20px;
+}
+.fa-edit {
+  font-size: 20px;
+}

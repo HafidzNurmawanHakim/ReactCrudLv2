@@ -1,0 +1,24 @@
+.identity-wrap {
+  padding: 10px;
+}
+.identity {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  padding: 5px 20px;
+}
+
+.identity:first-child::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 80px;
+  background-color: #ddd;
+}
+
+.identity:nth-child(2) {
+  background-color: whitesmoke;
+  width: 200px;
+  border-radius: 4px;
+}
